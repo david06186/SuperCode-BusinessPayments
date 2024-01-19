@@ -10,3 +10,151 @@
   margin: 0;
   padding: 0;
 }
+
+/* - At-rules */
+
+/* * Fonts */
+
+/* manrope-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/manrope-v15-latin-regular.woff2') format('woff2');
+}
+/* manrope-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/assets/fonts/manrope-v15-latin-500.woff2') format('woff2');
+}
+/* manrope-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/assets/fonts/manrope-v15-latin-600.woff2') format('woff2');
+}
+/* manrope-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/assets/fonts/manrope-v15-latin-700.woff2') format('woff2');
+}
+/* manrope-800 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/assets/fonts/manrope-v15-latin-800.woff2') format('woff2');
+}
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/poppins-v20-latin-regular.woff2') format('woff2');
+}
+/* poppins-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/assets/fonts/poppins-v20-latin-500.woff2') format('woff2');
+}
+/* chenla-regular - khmer */
+@font-face {
+  font-display: swap;
+  font-family: 'Chenla';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/chenla-v25-khmer-regular.woff2') format('woff2');
+}
+/* b612-mono-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'B612 Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/b612-mono-v14-latin-regular.woff2') format('woff2');
+}
+/* b612-mono-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'B612 Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/assets/fonts/b612-mono-v14-latin-700.woff2') format('woff2');
+}
+/* acme-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Acme';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/acme-v25-latin-regular.woff2') format('woff2');
+} /* anek-bangla-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Anek Bangla';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/anek-bangla-v5-latin-regular.woff2') format('woff2');
+}
+/* anek-bangla-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Anek Bangla';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/assets/fonts/anek-bangla-v5-latin-500.woff2') format('woff2');
+}
+/* anek-bangla-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Anek Bangla';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/assets/fonts/anek-bangla-v5-latin-600.woff2') format('woff2');
+}
+/* anek-bangla-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Anek Bangla';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/assets/fonts/anek-bangla-v5-latin-700.woff2') format('woff2');
+}
+/* anek-bangla-800 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Anek Bangla';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/assets/fonts/anek-bangla-v5-latin-800.woff2') format('woff2');
+}
+/* anek-gujarati-100 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Anek Gujarati';
+  font-style: normal;
+  font-weight: 100;
+  src: url('/assets/fonts/anek-gujarati-v9-latin-100.woff2') format('woff2');
+}
+/* anek-gujarati-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Anek Gujarati';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/anek-gujarati-v9-latin-regular.woff2') format('woff2');
+}
