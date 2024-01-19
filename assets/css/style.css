@@ -158,3 +158,40 @@
   font-weight: 400;
   src: url('/assets/fonts/anek-gujarati-v9-latin-regular.woff2') format('woff2');
 }
+
+/* - Global Variables & Rules */
+
+:root {
+  /* * Variables */
+
+  --global--background--Color: #e9e9e0;
+  --global--border--Color: #333;
+  --global--outline--Color: #333;
+  --global--text--Color: #333;
+  --global--link--Color: #737b80;
+
+  /* * Rules */
+
+  font-size: 62.5%;
+
+  a,
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    text-decoration: none;
+    color: unset;
+    cursor: pointer;
+  }
+
+  img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+}
+
+/* - IDs */
+
+/* - Classes */
+
+/* - Type Selectors */
