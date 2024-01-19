@@ -195,3 +195,12 @@
 /* - Classes */
 
 /* - Type Selectors */
+
+header {
+  background-image: url(../img/Eclipse.png);
+  background-repeat: no-repeat;
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+}
