@@ -164,15 +164,155 @@
 :root {
   /* * Variables */
 
-  --global--background--Color: #e9e9e0;
-  --global--border--Color: #333;
-  --global--outline--Color: #333;
-  --global--text--Color: #333;
-  --global--link--Color: #737b80;
+  --global--background--Color: #ffffff;
+  --global--accent--Color--1: #04796b;
+  --global--accent--Color--2: #f57058;
+  --global--text--Color: #757095;
+  --global--subheader--Color: #8593a3;
+  --global--button--TextColor: #fff;
+}
 
-  /* * Rules */
+/* - IDs */
 
+/* - Classes */
+
+.wrapper {
+  width: auto;
+  max-width: 1920px;
+}
+
+.button {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-family: 'Manrope', system-ui, Sans-Serif;
+  font-weight: 600;
+  a,
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    color: var(--global--button--TextColor);
+  }
+}
+
+.heading {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  h2 {
+    font-size: 6rem;
+    line-height: 133%;
+  }
+  h5 {
+    font-size: 2.2rem;
+  }
+  p {
+    color: var(--global--text--Color);
+    font-family: 'Manrope', system-ui, Sans-Serif;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 175%;
+  }
+  .button {
+    display: inline;
+    background-color: var(--global--accent--Color--1);
+  }
+}
+
+.heading-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  h4 {
+    font-size: 2.6rem;
+    line-height: 200%;
+  }
+  p {
+    color: var(--global--subheader--Color);
+    font-family: 'Anek Gujarati', system-ui, Sans-Serif;
+    font-weight: 100;
+    white-space: collapse balance;
+    line-height: 160%;
+    font-size: 1.6rem;
+  }
+}
+
+/* - Type Selectors */
+
+html {
+  background-color: var(--global--background--Color);
   font-size: 62.5%;
+
+  header {
+    background-image: url('../img/Eclipse.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: scroll;
+    padding-top: 2vh;
+    padding-inline: 5vw;
+    min-height: 80vh;
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+
+      h3 {
+        font-size: 2rem;
+        text-transform: uppercase;
+      }
+
+      div {
+        display: flex;
+        flex-wrap: wrap;
+        gap: clamp(1rem, 3rem, 5rem);
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Manrope', system-ui, Sans-Serif;
+        font-weight: 600;
+        white-space: collapse balance;
+        font-size: 1.4rem;
+        .button {
+          background-color: var(--global--accent--Color--2);
+          border-radius: 25px;
+          height: 5.2rem;
+          min-height: 5rem;
+          width: 13.7rem;
+          max-width: 14rem;
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+
+  h2 {
+    font-family: 'Manrope', system-ui, Sans-Serif;
+    font-weight: 800;
+    white-space: collapse balance;
+  }
+  h3 {
+    font-family: 'Anek Bangla', system-ui, Sans-Serif;
+    font-weight: 700;
+    white-space: collapse balance;
+  }
+  h4 {
+    font-family: 'Manrope', system-ui, Sans-Serif;
+    font-weight: 700;
+    white-space: collapse balance;
+  }
+  h5 {
+    font-family: 'Acme', system-ui, Sans-Serif;
+    font-weight: 400;
+    white-space: collapse balance;
+  }
 
   a,
   a:link,
@@ -185,22 +325,9 @@
   }
 
   img {
-    max-height: 100%;
+    display: block;
     max-width: 100%;
   }
 }
 
-/* - IDs */
-
-/* - Classes */
-
-/* - Type Selectors */
-
-header {
-  background-image: url(../img/Eclipse.png);
-  background-repeat: no-repeat;
-  nav {
-    display: flex;
-    justify-content: space-between;
-  }
-}
+/* - Media Queries */
