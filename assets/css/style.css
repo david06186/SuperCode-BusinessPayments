@@ -165,8 +165,8 @@
   /* * Variables */
 
   --global--background--Color: #ffffff;
-  --global--accent--Color--1: #04796b;
-  --global--accent--Color--2: #f57058;
+  --global--accent--Color__1: #04796b;
+  --global--accent--Color__2: #f57058;
   --global--text--Color: #757095;
   --global--subheader--Color: #8593a3;
   --global--button--TextColor: #fff;
@@ -219,7 +219,7 @@
   }
   .button {
     display: inline;
-    background-color: var(--global--accent--Color--1);
+    background-color: var(--global--accent--Color__1);
   }
 }
 
@@ -261,6 +261,7 @@ html {
 
     nav {
       display: flex;
+      flex: 1;
       flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
@@ -280,8 +281,9 @@ html {
         font-weight: 600;
         white-space: collapse balance;
         font-size: 1.4rem;
+
         .button {
-          background-color: var(--global--accent--Color--2);
+          background-color: var(--global--accent--Color__2);
           border-radius: 25px;
           height: 5.2rem;
           min-height: 5rem;
